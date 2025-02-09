@@ -590,6 +590,21 @@ body.nav-active { overflow: hidden; }
 
 .slider-subtitle { font-size: var(--fontSize-7); }
 
+.slider2-title{
+  font-weight: var(--weight-bold);
+  color: hsla(216, 100%, 95%, 1);
+  margin-block-end: 5px;
+  transition: var(--transition-1);
+  margin: 147px;
+  margin-bottom: -23px;
+  padding-right: 11px;
+}
+
+.slider-card:is(:hover, :focus-visible) .slider2-title { color: var(--text-carolina-blue); }
+
+.slider2-subtitle { font-size: var(--fontSize-); }
+
+
 
 
 
